@@ -18,17 +18,18 @@
         Rumus Luas Persegi : L= S x S   
         Dimana :
         L = Luas
-        S = Siai 
+        S = Sisi 
     </pre>
-
+    <script src="js.js"></script>
     <div class="input">
         <label for="squareSide" id="labelpersegi">Hitung Luas Persegi</label>
-        <input type="number" id="squareSide" placeholder="nilai sisi">
+        <input type="number"  id="squareSide" placeholder="nilai sisi">
+        <p>Hasil :<span id="Luas"></span></p>
     </div>
     <div class="button">
-        <button id="inputbutton">Hitung</button>
-        <button id="risetbutton">Riset</button>
+        <button id="inputbutton" value="hitung" onclick="hitung()">Hitung</button>
+        <button id="risetbutton" value="riset" onclick="riset()">Riset</button>
     </div>
-    
+
 </body>
 </html>
