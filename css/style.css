@@ -86,3 +86,22 @@ button:active{
     background-color:#C9DFEC;
     transform: translateY(2px);
 }
+#inputkeliling{
+    margin-top: 5px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f2f2f3;
+    padding: 8px 12px;
+    margin: 6px 0;
+    transition: width 0.10s ease-in-out;
+    width: 30%;
+}
+#inputkeliling:focus{
+    width: 40%;
+}
+#footer {
+    text-align: center;
+  }
