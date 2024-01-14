@@ -39,6 +39,13 @@ img{
 }
 pre{
     margin-top: 20px;
+    margin-left: -70px;
+}
+.judulluas{
+    text-align: center;
+}
+.judulkeliling{
+    text-align: center;
 }
 .input{
     display: flex;
