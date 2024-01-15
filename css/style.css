@@ -13,9 +13,10 @@ header{
     background-color:#3090C7;
     background-attachment: fixed;
     background-origin: border-box;
+    font-family: 'Courier New', Courier, monospace;
 
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 header h4{
     color:black;
