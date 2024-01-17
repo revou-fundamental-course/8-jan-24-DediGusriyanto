@@ -147,6 +147,10 @@ button:active{
         background-color: #26c6f3;
     }
 
+    #footer{
+        text-align: center;
+    }
+
     #squareSide{
         width:250px;
         padding: 0,5em 0 0,5em 0;
