@@ -3,12 +3,12 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     background-color: #B0CFDE;
-    
-
 }
+
 header{
     text-align: center;
 }
+
 .hed{
     background-color:#3090C7;
     background-attachment: fixed;
@@ -18,19 +18,23 @@ header{
     text-align: center;
     font-size: 40px;
 }
+
 header h4{
     color:black;
     font-weight: bold;
     font-size: 20px;
 }
+
 h1{
     margin-top: 30px;
     padding: 20px;
 }
+
 .paragraf{
     text-align: center;
 
 }
+
 img{
     display: block;
     margin-left: auto;
@@ -38,21 +42,26 @@ img{
     border-style: outset;
     width: 120px;
 }
+
 pre{
     margin-top: 20px;
     margin-left: -70px;
 }
+
 .judulluas{
     text-align: center;
 }
+
 .judulkeliling{
     text-align: center;
 }
+
 .input{
     display: flex;
     flex-direction: column;
 
 }
+
 #squareSide{
     margin-top: 5px;
     outline: none;
@@ -66,9 +75,11 @@ pre{
     transition: width 0.10s ease-in-out;
     width: 30%;
 }
+
 #squareSide:focus{
     width: 40%;
 }
+
 button{
     background-color: #3090C7;
     color: black;
@@ -78,22 +89,28 @@ button{
     cursor: pointer;
     margin-top: 10px;
 }
+
 #risetbutton{
     background-color: red;
 }
+
 #risetbutton:hover{
     background-color:#B0CFDE;
 }
+
 #risetbutton:active{
     background-color:#C9DFEC;
 }
+
 button:hover{
     background-color:#B0CFDE;
 }
+
 button:active{
     background-color:#C9DFEC;
     transform: translateY(2px);
 }
+
 #inputkeliling{
     margin-top: 5px;
     outline: none;
@@ -107,9 +124,86 @@ button:active{
     transition: width 0.10s ease-in-out;
     width: 30%;
 }
+
 #inputkeliling:focus{
     width: 40%;
 }
+
 #footer {
     text-align: center;
   }
+
+@media screen and (max-widht: 600px) {
+    body {
+        background-color: #ADD8E6;
+        font-size: 14px;
+    }
+
+    .hed{
+        background-color: #6495ED;
+    }
+    
+    #inputbutton{
+        background-color: #26c6f3;
+    }
+
+    #squareSide{
+        width:250px;
+        padding: 0,5em 0 0,5em 0;
+        border:solid 5px #F1F1F1;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        background-color: #b7bdc3;
+    }
+
+    #inputkeliling{
+        width:250px;
+        padding: 0,5em 0 0,5em 0;
+        border:solid 5px #F1F1F1;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        background-color: #AFC8DE;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {
+        background-color: #87CEEB;
+        font-size: 18px;
+        text-align: center;
+    }
+    .hed{
+        background-color: #00BFFF ;
+    }
+
+    #inputbutton{
+        background-color: #3090C7;
+    }
+
+    #squareSide{
+        width:250px;
+        padding: 0,5em 0 0,5em 0;
+        border:solid 5px #F1F1F1;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        background-color: #AFC8DE;
+    }
+
+    #inputkeliling{
+        width:250px;
+        padding: 0,5em 0 0,5em 0;
+        border:solid 5px #F1F1F1;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        background-color: #AFC8DE;
+    }
+} 
+    
