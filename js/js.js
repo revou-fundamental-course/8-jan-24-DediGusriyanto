@@ -20,7 +20,7 @@ function hitungkeliling(){
     var inputkeliling = document.getElementById('inputkeliling').value;
     var Keliling = 4 * inputkeliling;
 
-    if (isNaN(inputkeliling)){
+    if (inputkeliling == "" || isNaN(inputkeliling)){
         alert("masukan dengan berupa angka.");
 
         return;

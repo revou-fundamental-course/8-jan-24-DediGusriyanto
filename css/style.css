@@ -66,10 +66,10 @@ pre{
     margin-top: 5px;
     outline: none;
     border-radius: 8px;
-    border: 1px solid black;
+    border: solid 4px rgb(127, 195, 228);
     display: inline-block;
     box-sizing: border-box;
-    background-color: #f2f2f3;
+    background-color: #babfc5;
     padding: 8px 12px;
     margin: 6px 0;
     transition: width 0.10s ease-in-out;
@@ -115,10 +115,10 @@ button:active{
     margin-top: 5px;
     outline: none;
     border-radius: 8px;
-    border: 1px solid black;
+    border: solid 4px rgb(127, 195, 228);
     display: inline-block;
     box-sizing: border-box;
-    background-color: #f2f2f3;
+    background-color: #babfc5;
     padding: 8px 12px;
     margin: 6px 0;
     transition: width 0.10s ease-in-out;
@@ -148,6 +148,7 @@ button:active{
     }
 
     #footer{
+        text-decoration: none;
         text-align: center;
     }
 
